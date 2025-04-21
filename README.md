@@ -22,14 +22,17 @@ s3-bucket-aws-cli/ ├── main.tf # Terraform configuration ├── variabl
 
 2. Initialize Terraform
 
+   ```bash
     terraform init
 
 3. Apply the Configuration
 
+   ```bash
     terraform apply
 
 4. Destroy the Infrastructure
 
+   ```bash
     terraform destroy
 
 Requirements:
